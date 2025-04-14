@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Automation Practice Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        .hidden-element {
+            display: none;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-header">Test Automation Practice Page</h1>
+    
+    <!-- Text input fields -->
+    <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter username">
+    </div>
+    
+    <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+    </div>
+
+    <!-- Dropdown -->
+    <div class="form-group">
+        <label for="dropdown">Select a car:</label>
+        <select id="dropdown" name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+    </div>
+
+    <!-- Radio buttons -->
+    <div class="form-group">
+        <p>Select your gender:</p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+
+    <!-- Checkboxes -->
+    <div class="form-group">
+        <p>Select your hobbies:</p>
+        <input type="checkbox" id="reading" name="hobby" value="reading">
+        <label for="reading">Reading</label><br>
+        <input type="checkbox" id="sports" name="hobby" value="sports">
+        <label for="sports">Sports</label><br>
+        <input type="checkbox" id="music" name="hobby" value="music">
+        <label for="music">Music</label>
+    </div>
+
+    <!-- Buttons -->
+    <div class="form-group">
+        <button class="button" id="submit-button" onclick="showAlert()">Submit</button>
+        <button class="button" id="reset-button" style="background-color: #f44336;">Reset</button>
+    </div>
+
+    <!-- Table -->
+    <table id="data-table">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+            <td>London</td>
+        </tr>
+    </table>
+
+    <!-- Hidden element -->
+    <div id="hidden-div" class="hidden-element">
+        This element is hidden
+    </div>
+
+    <!-- Alert demo -->
+    <script>
+        function showAlert() {
+            alert("Form submitted successfully!");
+        }
+    </script>
+</body>
+</html> 
