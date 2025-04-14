@@ -1,0 +1,30 @@
+write me a TestCase#	Test Scenario	Test Cases	Test Steps	Test Data	Expected Result	Actual Result	Pass/Fail for a New Customer
+T4    Customer Name � Numbers are not allowed
+T5    Customer Name � Special characters are not allowed
+T6    Customer Name -  Customer name must not be blank
+T7    Customer Name - First character cannot have space
+
+
+
+write me a TestCase#	Test Scenario	Test Cases	Test Steps	Test Data	Expected Result	Actual Result	Pass/Fail for a New Customer
+T8    Address - Address Field must not be blank
+T9    Address - First character can not have space
+T10  Address - Special characters are not allowed
+
+
+
+write me a TestCase#	Test Scenario	Test Cases	Test Steps	Test Data	Expected Result	Actual Result	Pass/Fail for a New Customer
+T15  State � Numbers are not allowed
+T16  State - State must not be blank
+T17  State � Special characters are not allowed
+
+
+
+
+
+write me a TestCase#	Test Scenario	Test Cases	Test Steps	Test Data	Expected Result	Actual Result	Pass/Fail for a New Customer
+T18  Pin - Characters are not allowed
+T19  Pin - PIN Code must not be blank
+T20  Pin � Special characters are not allowed
+T21  Pin � PIN Code must have 6 Digits
+T22  Pin - First character can not have space
